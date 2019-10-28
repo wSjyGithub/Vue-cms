@@ -3,6 +3,8 @@ import Mint from 'mint-ui';
 import 'mint-ui/lib/style.css';
 import '../dilist/mui/css/mui.min.css'
 import '../dilist/mui/css/icons-extra.css'
+import  VueResource  from 'vue-resource'
+Vue.use(VueResource)
 Vue.use(Mint);
 
 import VueRouter from 'vue-router'

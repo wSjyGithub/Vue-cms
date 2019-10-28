@@ -5,6 +5,7 @@ import Home from './components/Home.vue'
 import Member from './components/Member.vue'
 import Search from './components/Search.vue'
 import ShoppingCart from './components/ShoppingCart.vue'
+import NewList from './components/NewList.vue'
 
 
 // 3. 创建路由对象
@@ -15,7 +16,8 @@ var router = new VueRouter({
     { path: '/member', component: Member },
     { path: '/shoppingcart', component: ShoppingCart },
     { path: '/search', component: Search },
-    { path: '/', redirect: '/home'}
+    { path: '/', redirect: '/home'},
+    { path: '/home/newlist', component: NewList },
    
   ],
   linkActiveClass: 'mui-active' // 覆盖默认的路由高亮的类，默认的类叫做 router-link-active
